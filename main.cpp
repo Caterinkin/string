@@ -9,11 +9,11 @@ int main()
     SetConsoleOutputCP(1251);
 
     std::string name, last_name;
-    std::cout << "Ââåäèòå èìÿ:  ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ: ";
     std::cin >> name;
-    std::cout << "Ââåäèòå ôàìèëèþ: ";
+    std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ„Ð°Ð¼Ð¸Ð»Ð¸ÑŽ: ";
     std::cin >> last_name;
-    std::cout << "Çäðàâñòâóéòå " << name + " " + last_name << "!"<< std::endl;
+    std::cout << "Ð—Ð´Ñ€Ð°Ð²ÑÑ‚Ð²ÑƒÐ¹Ñ‚Ðµ " << name + " " + last_name << "!"<< std::endl;
        
     return 0;
 }
